@@ -3,8 +3,7 @@
 #### *Módulo 2 do curso NodeJS B7Web.*  
 ---
 ### Global requirements:
-"npm install -g ts-node typescript"
-"npm install -D tsx"
+"npm install -g ts-node typescript; npm install -D tsx"
 
 ### Instalation:
 "npm install"  
