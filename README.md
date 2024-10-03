@@ -3,10 +3,11 @@
 #### *Módulo 2 do curso NodeJS B7Web.*  
 ---
 ### Global requirements:
-"npm install -g nodemon ts-node typescript"  
+"npm install -g ts-node typescript"
+"npm install -D tsx"
 
 ### Instalation:
 "npm install"  
 
 ### To run the project:
-"npm run start-dev"
+"npm run dev"
