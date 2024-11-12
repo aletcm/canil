@@ -5,7 +5,7 @@ import { Pet } from "../models/Pet"
 export const Search = (req: Request, res: Response) => {
     let search: string = req.query.details as string
 
-    if(!search) {
+    if (!search) {
         res.redirect('/')
         return
     }

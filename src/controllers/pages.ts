@@ -9,7 +9,7 @@ export const Home = (req: Request, res: Response) => {
         menu: Menu('all'),
         banner: {
             title: 'Todos os animais',
-            background: 'allanimals.jpg' 
+            background: 'allanimals.jpg'
         },
         list
     })
@@ -22,7 +22,7 @@ export const Dogs = (req: Request, res: Response) => {
         menu: Menu('dog'),
         banner: {
             title: 'Cachorros',
-            background: 'banner_dog.jpg' 
+            background: 'banner_dog.jpg'
         },
         list
     })
@@ -35,7 +35,7 @@ export const Cats = (req: Request, res: Response) => {
         menu: Menu('cat'),
         banner: {
             title: 'Gatos',
-            background: 'banner_cat.jpg' 
+            background: 'banner_cat.jpg'
         },
         list
     })
@@ -48,7 +48,7 @@ export const Fishes = (req: Request, res: Response) => {
         menu: Menu('fish'),
         banner: {
             title: 'Peixes',
-            background: 'banner_fish.jpg' 
+            background: 'banner_fish.jpg'
         },
         list
     })

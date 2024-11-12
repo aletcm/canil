@@ -2,6 +2,7 @@
 type Menu = "" | "all" | "dog" | "cat" | "fish"
 
 export const Menu = (active: Menu) => {
+
     let object = {
         all: false,
         dog: false,
@@ -9,7 +10,8 @@ export const Menu = (active: Menu) => {
         fish: false
     }
 
-    if(active !== '') {
+    if (active !== '') {
+
         object[active] = true
     }
 
